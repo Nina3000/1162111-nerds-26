@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Нина Надарейшвили](https://up.htmlacademy.ru/htmlcss/26/user/1162111).
-* Наставник: [Кирилл Генералов](https://github.com/HiFull).
+* Наставник: [Кирилл Генералов](https://htmlacademy.ru/profile/hifull).
 
 ---
 
