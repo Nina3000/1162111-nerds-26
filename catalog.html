@@ -28,12 +28,62 @@
 
     <section>
       <h2 class="visually-hidden">Сортировка</h2>
-      <!--Форма для сортивки-->
+      <p>Сортировать:</p>
+      <button type="submit">По цене</button>
+      <button type="submit">По типу</button>
+      <button type="submit">По названию</button>
+      <!--Стрелки вверх/вниз для возрастания/убывания-->
     </section>
 
     <section>
       <h2 class="visually-hidden">Фильтрация</h2>
-      <!--Форма для сортивки-->
+      <form action="#" method="get">
+        <p>Стоимость:</p>
+        <div>
+          <!--Что-то из js вместо range для двух регулировщиков-->
+          От <output></output>
+          до <output></output>
+        </div>
+        <p>Сетка</p>
+        <ul>
+          <li>
+            <input type="radio" name="grid" value="responsive" id="responsive">
+            <label for="responsive">Адаптивная</label>
+          </li>
+          <li>
+            <input type="radio" name="grid" value="fix" id="fix">
+            <label for="fix">Фиксированная</label>
+          </li>
+          <li>
+            <input type="radio" name="grid" value="rub" id="rub">
+            <label for="">Резиновая</label>
+          </li>
+        </ul>
+        <p>Особенности</p>
+        <ul>
+          <li>
+            <input type="checkbox" name="slider" id="slider" checked>
+            <label for="slider">Слайдер</label>
+          </li>
+          <li>
+            <input type="checkbox" name="advantage" id="advantage">
+            <label for="advantage">Блок преимуществ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">Новости</label>
+          </li>
+          <li>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+          </li>
+          <li>
+            <input type="checkbox" name="cart" id="cart">
+            <label for="cart">Корзина</label>
+          </li>
+        </ul>
+        <button></button>
+      </form>
     </section>
 
     <section>
