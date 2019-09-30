@@ -3,149 +3,152 @@
 <head>
   <meta charset="utf-8">
   <title>Дизайн-студия nërds</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="index.html"><img src="img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии nërds"></a>
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-
-      <ul>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h1 class="visually-hidden">Дизайн-студия nërds</h1>
-    <section>
-      <h2 class="visually-hidden">Слайды с презентацией</h2>
-      <div>
-        <p>Долго, дорого,<br>
-        скурпулезно.</p>
-        <p>Математически выверенный дизайн<br>
-        для вашего сайта или мобильнго приложения.</p>
-        <a href="#">Узнать больше</a>
-        <img src="img/slide-picture.png" width="698" height="413" alt="Слайд с телефонами">
-      </div>
-    </section>
-    <section>
-      <h2 class="visually-hidden">Каталог сайта</h2>
-      <ul>
-        <li>
-          <a href="#1"><img src="img/advantage-picture-red.png" width="300" height="146" alt="Десктоп"></a>
-          <h3>Веб-сайты</h3>
-          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a href="#">Заказать</a>
-        </li>
-
-        <li>
-          <a href="#2"><img src="img/advantage-picture-green.png" width="300" height="146" alt="Мобильные телефоны"></a>
-          <h3>Приложения</h3>
-          <p>Покорите топ-10 приложений в AppleStore и Google Play</p>
-          <a href="#">Заказать</a>
-        </li>
-
-        <li>
-          <a href="#3"><img src="img/advantage-picture-yellow.png" width="300" height="146" alt="Слайд презентации"></a>
-          <h3>Презентации</h3>
-          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a href="#">Заказать</a>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2 class="visually-hidden">О компании</h2>
-      <div>
-        <p>Мы - маленькая, но гордая дизайн-студия из Краснодара.</p>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превше креатива. Работаем не покладая рук, как роботы.</p>
-        <p>Выполняем заказы на зарзаботку:</p>
+  <div>
+    <header>
+      <nav>
+        <a href="index.html"><img src="img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии nërds"></a>
         <ul>
-          <li>Веб-сайтов любой сложности</li>
-          <li>Мобильных приложений для iOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
-      </div>
 
-      <div>
-        <img src="img/nerds-picture.png" width="360" height="208" alt="Логотип nërds">
-        <p>С 2004 года любим точность во всем:</p>
-        <dl>
-          <dt>146<span>%</span></dt>
-          <dd>Уровень<br> самоотдачи</dd>
-          <dt>100<span>%</span></dt>
-          <dd>Соблюдение <br>сроков</dd>
-          <dt>50<span>%</span></dt>
-          <dd>Минимальная <br>предоплата</dd>
-        </dl>
-      </div>
+        <ul>
+          <li><a class="cart" href="#">Корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="visually-hidden">Дизайн-студия nërds</h1>
+      <section>
+        <h2 class="visually-hidden">Слайды с презентацией</h2>
+        <div>
+          <p>Долго, дорого,<br>
+          скурпулезно.</p>
+          <p>Математически выверенный дизайн<br>
+          для вашего сайта или мобильнго приложения.</p>
+          <a href="#">Узнать больше</a>
+          <img src="img/slide-picture.png" width="698" height="413" alt="Слайд с телефонами">
+        </div>
+      </section>
+
+      <section class="catalog">
+        <h2 class="visually-hidden">Каталог сайта</h2>
+        <ul>
+          <li class="catalog-item">
+            <a href="#1"><img src="img/advantage-picture-red.png" width="300" height="146" alt="Десктоп"></a>
+            <h3>Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="item red" href="#">Заказать</a>
+          </li>
+
+          <li class="catalog-item">
+            <a href="#2"><img src="img/advantage-picture-green.png" width="300" height="146" alt="Мобильные телефоны"></a>
+            <h3>Приложения</h3>
+            <p>Покорите топ-10 приложений в AppleStore и Google Play</p>
+            <a class="item green" href="#">Заказать</a>
+          </li>
+
+          <li class="catalog-item">
+            <a href="#3"><img src="img/advantage-picture-yellow.png" width="300" height="146" alt="Слайд презентации"></a>
+            <h3>Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="item yellow" href="#">Заказать</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="visually-hidden">О компании</h2>
+        <div>
+          <p>Мы - маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превше креатива. Работаем не покладая рук, как роботы.</p>
+          <p>Выполняем заказы на зарзаботку:</p>
+          <ul>
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="img/nerds-picture.png" width="360" height="208" alt="Логотип nërds">
+          <p>С 2004 года любим точность во всем:</p>
+          <dl>
+            <dt>146<span>%</span></dt>
+            <dd>Уровень<br> самоотдачи</dd>
+            <dt>100<span>%</span></dt>
+            <dd>Соблюдение <br>сроков</dd>
+            <dt>50<span>%</span></dt>
+            <dd>Минимальная <br>предоплата</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="visually-hidden">Партнёры</h2>
+        <ul>
+          <li><a href="#"><img src="img/htmlacademy-logo.png" width="199" height="68" alt="HTML Academy"></a></li>
+          <li><a href="#"><img src="img/borodinski-logo.png" width="209" height="90" alt="Borodinski"></a></li>
+          <li><a href="#"><img src="img/pink-logo.png" width="185" height="52" alt="Pink"></a></li>
+          <li><a href="#"><img src="img/mishka-logo.png" width="173" height="84" alt="Mishka"></a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <h2 class="visually-hidden">Адрес</h2>
+        <div>
+          <img src="img/map.jpg" width="1440" height="416" alt-"Карта с адресом: Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+          <img src="img/map-marker.png" width="231" height="190" alt="Отметка nërds на карте">
+          <p>Nërds Design Studio</p>
+          <p>191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <a href="#">Напишите нам</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul>
+          <li><a href="#" aria-label="Вконтакте"></a>Вконтакте</li>
+          <li><a href="#" aria-label="Фейсбук"></a>Фейсбук</li>
+          <li><a href="#" aria-label="Инстаграм"></a>Инстаграм</li>
+        </ul>
+        <div class="discount">
+          <p>Давайте дружить, это выгодно!</p>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </section>
+    </footer>
+
+
+    <section class="no">
+      <h2>Напишите нам</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Ваше имя</label>
+          <input id="name" type="text" name="name" placeholder="Имя и Фамилия">
+        </p>
+        <p>
+          <label for="email">Ваш e-mail</label>
+          <input id="email" type="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="letter">Текст письма</label>
+          <textarea id="letter" name="letter" rows="5" placeholder="В свободной форме"></textarea>
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
     </section>
-
-    <section>
-      <h2 class="visually-hidden">Партнёры</h2>
-      <ul>
-        <li><a href="#"><img src="img/htmlacademy-logo.png" width="199" height="68" alt="HTML Academy"></a></li>
-        <li><a href="#"><img src="img/borodinski-logo.png" width="209" height="90" alt="Borodinski"></a></li>
-        <li><a href="#"><img src="img/pink-logo.png" width="185" height="52" alt="Pink"></a></li>
-        <li><a href="#"><img src="img/mishka-logo.png" width="173" height="84" alt="Mishka"></a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <section>
-      <h2 class="visually-hidden">Адрес</h2>
-      <div>
-        <img src="img/map.jpg" width="1440" height="416" alt-"Карта с адресом: Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-        <img src="img/map-marker.png" width="231" height="190" alt="Отметка nërds на карте">
-        <p>Nërds Design Studio</p>
-        <p>191186, Санкт-Петербург,<br>
-        ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <a href="#">Напишите нам</a>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="visually-hidden">Социальные сети</h2>
-      <ul>
-        <li><a href="#" aria-label="Вконтакте"></a>Вконтакте</li>
-        <li><a href="#" aria-label="Фейсбук"></a>Фейсбук</li>
-        <li><a href="#" aria-label="Инстаграм"></a>Инстаграм</li>
-      </ul>
-      <div>
-        <p>Давайте дружить, это выгодно!</p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
-      </div>
-    </section>
-  </footer>
-
-  <section>
-    <h2>Напишите нам</h2>
-    <form action="#" method="post">
-      <p>
-        <label for="name">Ваше имя</label>
-        <input id="name" type="text" name="name" placeholder="Имя и Фамилия">
-      </p>
-      <p>
-        <label for="email">Ваш e-mail</label>
-        <input id="email" type="email" placeholder="email@example.com">
-      </p>
-      <p>
-        <label for="letter">Текст письма</label>
-        <textarea id="letter" name="letter" rows="5" placeholder="В свободной форме"></textarea>
-      </p>
-      <button type="submit">Отправить</button>
-    </form>
-  </section>
-
-</body>
-</html>
+  </body>
+  </html>
