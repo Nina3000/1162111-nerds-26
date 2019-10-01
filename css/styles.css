@@ -40,6 +40,10 @@ nav ul{
   list-style: none;
 }
 
+ul.catalog-items {
+  list-style: none;
+}
+
 .catalog-item h3 {
   font-size: 24px;
   font-weight: bold;
@@ -62,6 +66,8 @@ nav ul{
   line-height: 18px;
   text-align: center;
   color: #ffffff;
+  padding: 19px 55px 18px 53px;
+  margin: 10px;
 }
 .red {
 
@@ -73,7 +79,7 @@ nav ul{
 }
 
 .yellow {
-  background-color: #ffffff
+  background-color: #efc84a;
 }
 
 .discount p:first-of-type {
