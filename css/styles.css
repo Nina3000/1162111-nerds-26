@@ -57,7 +57,7 @@ ul.catalog-items {
   color: #283136;
 }
 
-.item {
+a.item {
   width: 160px;
   height: 50px;
   font-size: 16px;
@@ -67,19 +67,48 @@ ul.catalog-items {
   text-align: center;
   color: #ffffff;
   padding: 19px 55px 18px 53px;
-  margin: 10px;
 }
-.red {
+
+a.red {
 
   background-color: #fb565a;
 }
 
-.green {
+a.green {
   background-color: #00ca74;
 }
 
-.yellow {
+a.yellow {
   background-color: #efc84a;
+}
+
+a.red:hover {
+
+  background-color: #e74246;
+}
+
+a.green:hover {
+  background-color: #00bc6c;
+}
+
+a.yellow:hover {
+  background-color: #eab534;
+}
+
+a.item:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+a.red:active {
+  background-color: #d7373b;
+}
+
+a.green:active {
+  background-color: #00aa62;
+}
+
+a.yellow:active {
+  background-color: #e5a722;
 }
 
 .discount p:first-of-type {
@@ -93,7 +122,6 @@ ul.catalog-items {
   line-height: 22px;
   color: #444444;
 }
-
 
 ul.net,
 ul.features {
@@ -115,4 +143,183 @@ ul.templates {
 
 .no {
   display: none;
+}
+
+nav a {
+color: #000000;
+}
+
+nav a:hover {
+  color: #fb565a;
+}
+
+
+nav a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.current_page {
+  color: #000000;
+  border-bottom: 2px solid #fb565a;
+  padding-bottom: 10px;
+}
+
+.slides p:first-of-type {
+ font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.slides p:last-of-type {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.sort h3 {
+    font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sort a {
+    opacity: 0.3;
+  font-size: 14px;
+  line-height: 18px;
+    text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort a:hover {
+    opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sort a:active,
+.sort .current_sort {
+opacity: 1;
+    color: #000000;
+}
+
+.filter h3 {
+    font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.price h3 {
+  letter-spacing: 0.18px;
+}
+
+.net input[type=radio] {
+    display: none;
+}
+
+.features input[type=checkbox] {
+    display: none;
+}
+
+.net label,
+.features label {
+ height: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #283136;
+}
+
+button.submit {
+outline: none;
+width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+    font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+
+/*кнопка пока выглядит не так. буду искать дальше улучшение. если не получится, то потом обсудим*/
+button.submit:hover {
+  background-color: #dfdfdf;
+}
+
+button.submit:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+}
+
+ul.pages {
+  list-style: none;
+}
+
+/* тут всё плохо */
+.pages li a {
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  vertical-align: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 19px 21px 18px 21px;
+}
+
+.pages a:hover {
+  background-color: #dfdfdf;
+}
+
+.pages a:active {
+   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pages li.current_number a{
+  width: 44px;
+  height: 44px;
+  border: solid 3px #dbdbdb;
+  background-color: #ffffff;
+  padding: 16px 18px 15px 18px;
+}
+
+.pages li.next a {
+  width: 260px;
+  height: 50px
+  padding: 19px 79px 18px 78px;
+}
+
+.pages li.current_number.next a {
+  width: 254px;
+  height: 44px;
+  border: solid 3px #dbdbdb;
+  background-color: #ffffff;
+  padding: 16px 76px 15px 75px;
+}
+
+.slides a {
+  width: 1440px;
+  height: 581px;
+  background-color: #fb565a;
+  padding: 19px 55px 18px 53px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slides a:hover {
+  background-color: #e74246;
+}
+
+.slides a:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
 }

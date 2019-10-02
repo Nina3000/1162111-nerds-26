@@ -14,7 +14,7 @@
       <ul>
         <li><a href="#">Студия</a></li>
         <li><a href="#">Клиенты</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
+        <li><a class="current_page" href="catalog.html">Магазин</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
 
@@ -27,18 +27,18 @@
   <main>
     <h1 class="template-shop">Магазин готовых шаблонов</h1>
 
-    <section>
+    <section class="sort">
       <h2 class="visually-hidden">Сортировка</h2>
       <h3>Сортировать:</h3>
-      <a href="">По цене</a>
+      <a class="current_sort" href="">По цене</a>
       <a href="">По типу</a>
       <a href="">По названию</a>
       <!--Стрелки вверх/вниз для возрастания/убывания-->
     </section>
 
-    <section>
+    <section class="filter">
       <h2 class="visually-hidden">Фильтрация</h2>
-      <form action="https://echo.htmlacademy.ru" method="get">
+      <form class="price" action="https://echo.htmlacademy.ru" method="get">
         <h3>Стоимость:</h3>
         <div>
           <!--Что-то из js вместо range для двух регулировщиков-->
@@ -82,7 +82,7 @@
             <label for="cart">Корзина</label>
           </li>
         </ul>
-        <button type="submit">Показать</button>
+        <button class="submit" type="submit">Показать</button>
       </form>
     </section>
 
@@ -132,11 +132,11 @@
           </div>
         </li>
       </ul>
-      <ul>
-        <li><a>1</a></li>
+      <ul class="pages">
+        <li class="current_number"><a>1</a></li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
-        <li><a href="#">Следующая</a></li>
+        <li class="next"><a href="#">Следующая</a></li>
       </ul>
     </section>
   </main>
