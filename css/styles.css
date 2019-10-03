@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #000000;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   background-color: #ffffff;
 }
 
@@ -21,123 +21,122 @@ a {
   overflow: hidden;
 }
 
-header,
-.template-shop {
+header {
   background-color: #eeeeee;
 }
 
-.template-shop {
+.page-title {
   font-size: 55px;
   font-weight: 500;
-  line-height: 55px;
+  line-height: 1;
 }
 
-nav ul{
+.navigation {
   font-size: 16px;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 1.8;
   text-transform: uppercase;
   list-style: none;
 }
 
-ul.catalog-items {
+.catalog-items {
   list-style: none;
 }
 
 .catalog-item h3 {
   font-size: 24px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 1.25;
   text-transform: uppercase;
 }
 
 .catalog-item p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #283136;
 }
 
-a.item {
+.item {
   width: 160px;
   height: 50px;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 18px;
+  line-height: 1.125;
   text-align: center;
   color: #ffffff;
   padding: 19px 55px 18px 53px;
 }
 
-a.red {
+.red {
 
   background-color: #fb565a;
 }
 
-a.green {
+.green {
   background-color: #00ca74;
 }
 
-a.yellow {
+.yellow {
   background-color: #efc84a;
 }
 
-a.red:hover {
+.red:hover {
 
   background-color: #e74246;
 }
 
-a.green:hover {
+.green:hover {
   background-color: #00bc6c;
 }
 
-a.yellow:hover {
+.yellow:hover {
   background-color: #eab534;
 }
 
-a.item:active {
+.item:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
-a.red:active {
+.red:active {
   background-color: #d7373b;
 }
 
-a.green:active {
+.green:active {
   background-color: #00aa62;
 }
 
-a.yellow:active {
+.yellow:active {
   background-color: #e5a722;
 }
 
 .discount p:first-of-type {
  font-size: 36px;
-  font-weight: bold;
-  line-height: 36px;
+ font-weight: bold;
+ line-height: 1;
 }
 
 .discount p:last-of-type {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.38;
   color: #444444;
 }
 
-ul.net,
-ul.features {
-list-style: none;
- font-size: 16px;
-  line-height: 20px;
+.net,
+.features {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.25;
   color: #283136;
 }
 
-h3 {
-    font-size: 18px;
+.filter h3 {
+  font-size: 18px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 1.6;
 }
 
-ul.templates {
+.templates {
   list-style: none;
 }
 
@@ -145,20 +144,20 @@ ul.templates {
   display: none;
 }
 
-nav a {
-color: #000000;
+.navigation a {
+  color: #000000;
 }
 
-nav a:hover {
+.navigation a:hover {
   color: #fb565a;
 }
 
 
-nav a:active {
+.navigation a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.current_page {
+.current-page {
   color: #000000;
   border-bottom: 2px solid #fb565a;
   padding-bottom: 10px;
@@ -166,46 +165,46 @@ nav a:active {
 
 .slides p:first-of-type {
  font-size: 55px;
-  font-weight: 500;
-  line-height: 55px;
+ font-weight: 500;
+ line-height: 1;
 }
 
 .slides p:last-of-type {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #283136;
 }
 
 .sort h3 {
-    font-size: 18px;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
 .sort a {
-    opacity: 0.3;
+  opacity: 0.3;
   font-size: 14px;
-  line-height: 18px;
-    text-transform: uppercase;
+  line-height: 1.3;
+  text-transform: uppercase;
   color: rgba(0, 0, 0, 0.3);
 }
 
 .sort a:hover {
-    opacity: 0.6;
+  opacity: 0.6;
   color: rgba(0, 0, 0, 0.6);
 }
 
 .sort a:active,
-.sort .current_sort {
-opacity: 1;
-    color: #000000;
+.sort .current-sort {
+  opacity: 1;
+  color: #000000;
 }
 
 .filter h3 {
-    font-size: 18px;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 1.6;
   text-transform: uppercase;
 }
 
@@ -214,92 +213,72 @@ opacity: 1;
 }
 
 .net input[type=radio] {
-    display: none;
+  display: none;
 }
 
 .features input[type=checkbox] {
-    display: none;
+  display: none;
 }
 
 .net label,
 .features label {
  height: 15px;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: left;
-  color: #283136;
+ font-size: 16px;
+ line-height: 1.25;
+ text-align: left;
+ color: #283136;
 }
 
-button.submit {
-outline: none;
-width: 260px;
-  height: 50px;
+[disabled] {
+  color: rgba(40, 49, 54, 0.3);
+}
+
+.submit {
+  outline: none;
   background-color: #eeeeee;
-    font-size: 16px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 18px;
-  text-align: center;
+  line-height: 1.125;
 }
 
-/*кнопка пока выглядит не так. буду искать дальше улучшение. если не получится, то потом обсудим*/
-button.submit:hover {
+
+.submit:hover {
   background-color: #dfdfdf;
 }
 
-button.submit:active {
+.submit:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   background-color: #d5d5d5;
 }
 
-ul.pages {
+.pagination-list {
   list-style: none;
 }
 
-/* тут всё плохо */
-.pages li a {
-  width: 50px;
-  height: 50px;
+
+.pagination-item a {
+
   background-color: #eeeeee;
   font-size: 16px;
   font-weight: 500;
-  line-height: 18px;
-  vertical-align: center;
-  text-align: center;
+  line-height: 1,125;
   text-transform: uppercase;
-  padding: 19px 21px 18px 21px;
 }
 
-.pages a:hover {
+.pagination-item a:hover {
   background-color: #dfdfdf;
 }
 
-.pages a:active {
-   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-  background-color: #d5d5d5;
-  opacity: 0.3;
-  color: rgba(0, 0, 0, 0.3);
+.pagination-item a:active {
+ box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+ background-color: #d5d5d5;
+ opacity: 0.3;
+ color: rgba(0, 0, 0, 0.3);
 }
 
-.pages li.current_number a{
-  width: 44px;
-  height: 44px;
+.pagination-item-current a{
   border: solid 3px #dbdbdb;
   background-color: #ffffff;
-  padding: 16px 18px 15px 18px;
-}
-
-.pages li.next a {
-  width: 260px;
-  height: 50px
-  padding: 19px 79px 18px 78px;
-}
-
-.pages li.current_number.next a {
-  width: 254px;
-  height: 44px;
-  border: solid 3px #dbdbdb;
-  background-color: #ffffff;
-  padding: 16px 76px 15px 75px;
 }
 
 .slides a {
@@ -309,7 +288,7 @@ ul.pages {
   padding: 19px 55px 18px 53px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 1.125;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
@@ -322,4 +301,12 @@ ul.pages {
 .slides a:active {
   background-color: #d7373b;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.3;
 }
