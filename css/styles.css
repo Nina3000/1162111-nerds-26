@@ -4,6 +4,7 @@ body {
   color: #000000;
   font-family: Roboto, Arial, sans-serif;
   background-color: #ffffff;
+  width: 1440px;
 }
 
 a {
@@ -21,17 +22,24 @@ a {
   overflow: hidden;
 }
 
-header {
+.main-header {
   background-color: #eeeeee;
+   padding-top: 49px;
 }
 
 .page-title {
   font-size: 55px;
   font-weight: 500;
   line-height: 1;
+  background-color: #eeeeee;
+  margin-top:0;
+  padding-top: 82px;
+  padding-bottom: 116px;
+text-align: center;
 }
 
-.navigation {
+.navigation,
+.cart-list {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.8;
@@ -39,8 +47,30 @@ header {
   list-style: none;
 }
 
+.navigation {
+  display: flex;
+  width: 438px;
+  margin-left: 202px;
+  margin-right: 245px;
+}
+
+.navigation li:nth-child(2) {
+margin-left: 47px;
+margin-right: 48px;
+}
+
+.navigation li:nth-child(3) {
+margin-right: 45px;
+}
+
 .catalog-items {
   list-style: none;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 140px;
+  margin-right: 200px;
+  margin-bottom: 80px;
+  justify-content: space-between;
 }
 
 .catalog-item h3 {
@@ -54,6 +84,21 @@ header {
   font-size: 16px;
   line-height: 1.5;
   color: #283136;
+  margin-top: 27px;
+  margin-bottom: 35px;
+}
+
+.catalog-item p:last-child {
+  margin-top: 24px;
+}
+
+
+.catalog-item img {
+  margin-bottom: 30px;
+}
+
+.catalog-item: img:first-child {
+  margin-bottom: 26px;
 }
 
 .item {
@@ -110,16 +155,33 @@ header {
   background-color: #e5a722;
 }
 
+.social-media {
+  display: flex;
+  margin-left: 140px;
+  margin-right: 356px;
+}
+
+.social-media-logos {
+  list-style: none;
+  display: flex;
+  margin-right: 139px;
+  margin-top: 69px;
+  margin-bottom: 69px;
+}
+
 .discount p:first-of-type {
  font-size: 36px;
  font-weight: bold;
  line-height: 1;
+ margin-top: 78px;
 }
 
 .discount p:last-of-type {
   font-size: 16px;
   line-height: 1.38;
   color: #444444;
+  margin-bottom: 76px;
+  margin-top: 12px;
 }
 
 .net,
@@ -138,22 +200,34 @@ header {
 
 .templates {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+width: 760px;
+padding: 0;
+}
+
+.templates li {
+  margin-bottom: 33px;
 }
 
 .no {
   display: none;
 }
 
-.navigation a {
+.navigation a,
+.cart-list a {
   color: #000000;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.cart-list a:hover {
   color: #fb565a;
 }
 
 
-.navigation a:active {
+.navigation a:active,
+.cart-list a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -310,3 +384,11 @@ header {
 .logo:active {
   opacity: 0.3;
 }
+
+.main-navigation {
+  display: flex;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+
