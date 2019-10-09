@@ -237,6 +237,20 @@ a {
   padding-bottom: 10px;
 }
 
+.slides {
+  display: flex;
+  background-color: #eeeeee;
+  padding-left: 140px;
+  padding-right: 171px;
+  padding-top: 36px;
+  margin-bottom: 80px;
+}
+
+.slides a {
+  margin-bottom: 80px;
+
+}
+
 .slides p:first-of-type {
  font-size: 55px;
  font-weight: 500;
@@ -247,6 +261,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   color: #283136;
+  margin-top: 28px;
+  margin-bottom: 42px;
 }
 
 .sort h3 {
@@ -473,4 +489,125 @@ a {
 
 .pagination-list {
   display: flex;
+}
+
+.partners {
+  margin-left: 171px;
+  margin-right: 183px;
+}
+
+.partners ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners li {
+  display: flex;
+  padding: 0px;
+}
+
+.partners li:first-of-type {
+  margin-top: 62px;
+    margin-right: 49px;
+  margin-bottom: 50px;
+}
+
+.partners li:nth-of-type(2) {
+  margin-top: 46px;
+    margin-right: 44px;
+  margin-bottom: 44px;
+     margin-left: 45px;
+}
+
+.partners li:nth-of-type(3) {
+  margin-top: 65px;
+    margin-right: 56px;
+  margin-bottom: 63px;
+     margin-left: 57px;
+}
+
+.partners li:last-of-type {
+  margin-top: 52px;
+  margin-bottom: 44px;
+     margin-left: 63px;
+}
+
+.partners a {
+  opacity: 0.2;
+}
+
+.partners a:hover {
+opacity: 1;
+}
+
+.partners a:active {
+  opacity: 0.1;
+}
+
+ .vertical-divider{
+  width: 2px;
+  height: 52px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.location {
+  margin-top: 80px;
+  position: relative;
+}
+
+.location p:first-of-type {
+  font-size: 18px;
+  font-weight: bold;
+line-height: 1.6;
+text-transform: uppercase;
+color: black;
+margin-bottom: 32px;
+}
+
+ .location p:not(:first-of-type) {
+  font-size: 16px;
+  line-height: 1.125;
+  color: #666666;
+}
+
+.location p:last-of-type {
+margin-bottom: 37px;
+}
+
+.address {
+  background-color: #ffffff;
+  padding: 54px 50px 47px 50px;
+  position: absolute;
+top: 54px;
+left: 140px;
+}
+
+.map-marker {
+  position: absolute;
+  top: 89px;
+  left: 820px;
+}
+
+.location a {
+  width: 219px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.125;
+  text-align: center;
+  background-color: #fb565a;
+  color: #ffffff;
+  padding: 19px 46px 19px 45px;
+}
+
+.location a:hover {
+  background-color: #e74246;
+}
+
+.location a:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
 }
