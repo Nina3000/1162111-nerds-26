@@ -24,7 +24,7 @@ a {
 
 .main-header {
   background-color: #eeeeee;
-  padding-top: 49px;
+   padding-top: 49px;
 }
 
 .page-title {
@@ -35,7 +35,7 @@ a {
   margin-top:0;
   padding-top: 82px;
   padding-bottom: 116px;
-  text-align: center;
+text-align: center;
 }
 
 .navigation,
@@ -55,12 +55,12 @@ a {
 }
 
 .navigation li:nth-child(2) {
-  margin-left: 47px;
-  margin-right: 48px;
+margin-left: 47px;
+margin-right: 48px;
 }
 
 .navigation li:nth-child(3) {
-  margin-right: 45px;
+margin-right: 45px;
 }
 
 .catalog-items {
@@ -203,8 +203,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 760px;
-  padding: 0;
+width: 760px;
+padding: 0;
 }
 
 .templates li {
@@ -403,7 +403,7 @@ a {
 
 
 .divider {
-  width: 1160px;
+    width: 1160px;
   height: 2px;
 }
 
@@ -416,24 +416,24 @@ a {
 
 
 .work-ethics p:first-child {
-  font-size: 45px;
+font-size: 45px;
   font-weight: 500;
   line-height: 1;
   margin-top: 80px;
 }
 
 .work-ethics p:nth-child(2) {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: 35px;
-  margin-bottom: 47px;
+font-size: 16px;
+line-height: 1.5;
+margin-top: 35px;
+margin-bottom: 47px;
 }
 
 .work-ethics p:nth-child(3) {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: bold;
-  text-transform: uppercase;
+font-size: 16px;
+line-height: 1.5;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 .with-stats p {
@@ -468,7 +468,7 @@ a {
   margin-top: 27px;
   font-size: 16px;
   line-height: 1,125;
-  color: #283136;
+    color: #283136;
 }
 
 .pagination-list {
