@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -55,13 +60,31 @@ a {
 }
 
 .navigation li:nth-child(2) {
-  margin-left: 47px;
-  margin-right: 48px;
+  padding-left: 47px;
+  padding-right: 48px;
 }
 
 .navigation li:nth-child(3) {
-  margin-right: 45px;
+  padding-right: 45px;
 }
+
+.cart-list .cart-link {
+  position: relative;
+  padding-left: 41px;
+}
+
+.cart-link::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  background-image: url("img/svg/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
 
 .catalog-items {
   list-style: none;
@@ -167,6 +190,22 @@ a {
   margin-right: 139px;
   margin-top: 69px;
   margin-bottom: 69px;
+}
+
+.social-media-logos li {
+  background-color: #e1e1e1;
+}
+
+.vk {
+    background-image: url("img/svg/vk-icon.svg");
+}
+
+.fb {
+    background-image: url("img/svg/fb-icon.svg");
+}
+
+.ig {
+    background-image: url("img/svg/insta-icon.svg");
 }
 
 .discount p:first-of-type {
@@ -343,26 +382,40 @@ a {
 
 .pagination-list {
   list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
 }
 
 .pagination-item {
-  box-sizing: border-box;
-  width: 50px;
-  height: 50px;
-  background-color: #eeeeee;
+   margin-right: 5px;
 }
 
-.pagination-item.next {
-  width: 260px;
+.pagination-item:last-child {
+  margin-right: 0;
 }
 
 .pagination-item a {
-  font-size: 16px;
+    box-sizing: border-box;
+  display: block;
+  padding: 19px 21px;
+   color: #000000;
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+
+    font-size: 16px;
   font-weight: 500;
   line-height: 1,125;
   text-transform: uppercase;
   text-align: center;
   vertical-align: center;
+}
+
+
+.pagination-item.next a {
+  width: 260px;
 }
 
 .pagination-item a:hover {
@@ -376,7 +429,7 @@ a {
  color: rgba(0, 0, 0, 0.3);
 }
 
-.pagination-item-current {
+.pagination-item-current a {
   border: solid 3px #dbdbdb;
   background-color: #ffffff;
 }
@@ -427,9 +480,12 @@ a {
   display: flex;
   margin-left: 141px;
   margin-bottom: 76px;
-
+margin-right: 0;
 }
 
+.work-ethics {
+margin-right: 149px;
+}
 
 .work-ethics p:first-child {
   font-size: 45px;
@@ -459,11 +515,13 @@ a {
   text-transform: uppercase;
   margin-top: 41px;
   margin-bottom: 49px;
-
+padding-left: 17px;
 }
 
 .statistics {
   display: flex;
+  padding-left: 0;
+  margin-right: 0;
 }
 
 .statistics dt {
@@ -610,4 +668,15 @@ left: 140px;
 .location a:active {
   background-color: #d7373b;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.form {
+  width: 960px;
+  height: 590px;
+  padding: 73px 100px 84px 100px;
+}
+
+.your-contacts {
+  display: flex;
+  flex-wrap: wrap;
 }

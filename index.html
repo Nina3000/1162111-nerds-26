@@ -19,7 +19,7 @@
       </ul>
 
       <ul class="cart-list">
-        <li><a class="cart" href="#">Корзина</a></li>
+        <li><a class="cart-link" href="#">Корзина</a></li>
       </ul>
     </nav>
   </header>
@@ -135,9 +135,9 @@
     <section class="social-media">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="social-media-logos">
-        <li><a href="#" aria-label="Вконтакте"></a>Вконтакте</li>
-        <li><a href="#" aria-label="Фейсбук"></a>Фейсбук</li>
-        <li><a href="#" aria-label="Инстаграм"></a>Инстаграм</li>
+        <li class="vk"><a href="#" aria-label="Вконтакте"></a><span class="visually-hidden">Вконтакте</span></li>
+        <li class="fb"><a href="#" aria-label="Фейсбук"></a><span class="visually-hidden">Фейсбук</span></li>
+        <li class="ig"><a href="#" aria-label="Инстаграм"></a><span class="visually-hidden">Инстаграм</span></li>
       </ul>
       <div class="discount">
         <p>Давайте дружить, это выгодно!</p>
@@ -147,9 +147,9 @@
   </footer>
 
 
-  <section class="no">
+  <section class="form no">
     <h2>Напишите нам</h2>
-    <form action="#" method="post">
+    <form class="your-contacts" action="#" method="post">
       <p>
         <label for="name">Ваше имя</label>
         <input id="name" type="text" name="name" placeholder="Имя и Фамилия">
