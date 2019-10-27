@@ -1250,3 +1250,7 @@ img {
 .close:active {
   opacity: 0.1;
 }
+
+iframe {
+  border:0;
+}
