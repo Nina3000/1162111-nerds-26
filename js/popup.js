@@ -1,18 +1,18 @@
 <script>
-  var link = document.querySelector(".mail-button");
+var link = document.querySelector(".mail-button");
 
-  var popup = document.querySelector(".mail");
-  var close = popup.querySelector(".close");
+var popup = document.querySelector(".mail");
+var close = popup.querySelector(".close");
 
-  var form = popup.querySelector("form");
-  var name = popup.querySelector("[name=name]");
-  var email = popup.querySelector("[type=email]");
+var form = popup.querySelector("form");
+var name = popup.querySelector("[name=name]");
+var email = popup.querySelector("[type=email]");
 
 
-  link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.add("mail-show");
-name.focus();
+link.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  popup.classList.add("mail-show");
+  name.focus();
 
 
   close.addEventListener("click", function (evt) {
@@ -39,4 +39,5 @@ name.focus();
       }
     }
   });
-</script>
+
+  </script>
