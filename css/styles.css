@@ -923,7 +923,7 @@ img {
 }
 
 .mail {
-  position: fixed;
+  position: fixe;
   top: 50px;
   left: 240px;
   width: 760px;
@@ -1040,19 +1040,19 @@ img {
 
 .template-hover {
   box-sizing: border-box;
- width: 360px;
- height: 231px;
- text-align: center;
- background-color: #eeeeee;
+  width: 360px;
+  height: 231px;
+  text-align: center;
+  background-color: #eeeeee;
 }
 
 .template-hover h3 {
-margin-top: 35px;
-margin-bottom: 26px;
+  margin-top: 35px;
+  margin-bottom: 26px;
 }
 
 .template-hover .template-name {
-    font-size: 18px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 auto;
@@ -1228,4 +1228,25 @@ margin-bottom: 26px;
 
 .max-price {
   text-align: right;
+}
+
+
+.close {
+  position: absolute;
+  top: 78px;
+  left: 849px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  width: 21px;
+  height: 21px;
+  opacity: 0.1;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:active {
+  opacity: 0.1;
 }

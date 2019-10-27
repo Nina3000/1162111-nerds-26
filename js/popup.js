@@ -1,4 +1,4 @@
-<script>
+
 var link = document.querySelector(".mail-button");
 
 var popup = document.querySelector(".mail");
@@ -13,7 +13,7 @@ link.addEventListener("click", function (evt) {
   evt.preventDefault();
   popup.classList.add("mail-show");
   name.focus();
-
+}
 
   close.addEventListener("click", function (evt) {
     evt.preventDefault();
@@ -39,5 +39,3 @@ link.addEventListener("click", function (evt) {
       }
     }
   });
-
-  </script>
