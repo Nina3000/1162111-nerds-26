@@ -102,8 +102,9 @@ img {
   padding-left: 26px;
 }
 
-.cart-link svg {
-  background-color: #a6a6a6;
+.cart-list svg {
+  opacity: 0.3;
+  padding-top: 7px;
 }
 
 .catalog-items {
@@ -769,7 +770,7 @@ img {
   font-weight: bold;
   line-height: 0.2;
   text-align: left;
-  paddingsss-bottom: 27px;
+  padding-bottom: 27px;
 }
 
 
@@ -1038,18 +1039,33 @@ img {
 }
 
 .template-hover {
+  box-sizing: border-box;
  width: 360px;
- height: 196px;
+ height: 231px;
  text-align: center;
  background-color: #eeeeee;
- padding-top: 35px;
 }
 
 .template-hover h3 {
-  font-size: 18px;
+margin-top: 35px;
+margin-bottom: 26px;
+}
+
+.template-hover .template-name {
+    font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 auto;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.template-hover .template-name:hover {
+  color: #fb565a;
+}
+
+.template-hover .template-name:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .template-hover p {
@@ -1112,6 +1128,7 @@ img {
   position: absolute;
   top: 385;
   left: 0;
+  z-index: 1000;
 
 }
 
@@ -1120,6 +1137,10 @@ img {
   z-index: 1;
 }
 
+.bar {
+  margin-left: 20%;
+  width: 30%;
+}
 
 .range-filter {
   width: 260px;
