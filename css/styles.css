@@ -449,11 +449,11 @@ img {
 
 .slider-item p:first-of-type {
   display: block;
- font-size: 55px;
- font-weight: 500;
- line-height: 1;
- margin-top: 27px;
- margin-bottom: 28px;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 27px;
+  margin-bottom: 28px;
 }
 
 .slider-item p:last-of-type {
@@ -720,7 +720,7 @@ img {
 }
 
 .about-company::before {
-content: '';
+  content: '';
   position: absolute;
   right: 0px;
   top: 0px;
@@ -842,7 +842,7 @@ content: '';
 }
 
 .partners::before {
-content: '';
+  content: '';
   position: absolute;
   right: 0px;
   top: 0px;
@@ -852,7 +852,7 @@ content: '';
 }
 
 .partners::after {
-content: '';
+  content: '';
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -1159,7 +1159,7 @@ content: '';
   content: "";
   background-image: url("../img/svg/browser.svg");
   background-repeat: no-repeat;
-    background-position: 0 0;
+  background-position: 0 0;
   width: 360px;
   height: 40px;
   top: -40;
