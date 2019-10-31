@@ -5,7 +5,6 @@ var formEl = popupEl.querySelector("formEl");
 var nameInput = popupEl.querySelector("[type=text]");
 var emailInput = popupEl.querySelector("[type=email]");
 
-
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
   popupEl.classList.add("mail-show");
