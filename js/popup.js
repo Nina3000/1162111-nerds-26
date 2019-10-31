@@ -1,5 +1,6 @@
 var link = document.querySelector(".mail-button");
 var popupEl = document.querySelector(".mail");
+
 var close = popupEl.querySelector(".close");
 var formEl = popupEl.querySelector("formEl");
 var nameInput = popupEl.querySelector("[type=text]");
