@@ -175,10 +175,10 @@ img {
   content: "";
   position: absolute;
   background-image: url("../img/advantage-picture-red.png");
-   width: 300px;
-   height: 146px;
-   top: 0;
-   left: 0;
+  width: 300px;
+  height: 146px;
+  top: 0;
+  left: 0;
   background-color: red;
 }
 
@@ -186,10 +186,10 @@ img {
   content: "";
   position: absolute;
   background-image: url("../img/advantage-picture-green.png");
-   width: 300px;
-   height: 146px;
-   top: 0;
-   left: 0;
+  width: 300px;
+  height: 146px;
+  top: 0;
+  left: 0;
   background-color: green;
 }
 
@@ -197,10 +197,10 @@ img {
   content: "";
   position: absolute;
   background-image: url("../img/advantage-picture-yellow.png");
-   width: 300px;
-   height: 146px;
-   top: 0;
-   left: 0;
+  width: 300px;
+  height: 146px;
+  top: 0;
+  left: 0;
   background-color: yellow;
 }
 
@@ -1085,7 +1085,7 @@ img {
   top: 0;
   left: -140px;
   z-index: 99;
-    border:0;
+  border:0;
 }
 
 .address {
