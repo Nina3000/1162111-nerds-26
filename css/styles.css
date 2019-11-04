@@ -1058,6 +1058,7 @@ img {
 .location {
   margin-top: 80px;
   position: relative;
+  width: 100%;
 }
 
 .location p:first-of-type {
