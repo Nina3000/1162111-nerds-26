@@ -37,6 +37,8 @@ body {
   padding: 0 20px;
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -1116,7 +1118,6 @@ img {
 .address-container {
   position: relative;
   z-index: 999;
-  padding-top: 60px;
 }
 
 .address {
