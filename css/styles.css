@@ -37,8 +37,6 @@ body {
   padding: 0 20px;
 }
 
-
-
 a {
   text-decoration: none;
 }
@@ -110,12 +108,10 @@ img {
   padding-right: 45px;
 }
 
-
 .cart-link {
   position: relative;
   padding-left: 41px;
 }
-
 
 .cart-link::before {
   content: "";
@@ -129,7 +125,6 @@ img {
   position: absolute;
   opacity: 0.3;
 }
-
 
 .cart-list li {
   display: flex;
@@ -207,8 +202,6 @@ img {
   left: 0;
   background-color: yellow;
 }
-
-
 
 .item {
   width: 160px;
@@ -329,7 +322,6 @@ img {
   top: 29px;
   left: 29px;
 }
-
 
 .social-button:hover {
   background-color: #e74246
@@ -529,7 +521,6 @@ img {
   background-color: #eeeeee;
   padding-top: 40px;
   margin: 0;
-
 }
 
 .slider-item:nth-child(1) {
@@ -557,7 +548,6 @@ img {
 
 .slider-item a {
   margin-bottom: 80px;
-
 }
 
 .slider-item p:first-of-type {
@@ -618,7 +608,6 @@ img {
 
 .slider-controls label::after {
   content: "";
-
   position: absolute;
   top: 8px;
   left: 8px;
@@ -657,7 +646,6 @@ img {
   border-radius: 50%;
 }
 
-
 .sort h3 {
   font-size: 18px;
   font-weight: bold;
@@ -672,7 +660,6 @@ img {
   padding: 0;
   justify-content: space-between;
 }
-
 
 .sort-type a {
   font-size: 14px;
@@ -734,7 +721,7 @@ img {
   background-color: #eeeeee;
   font-size: 16px;
   font-weight: 500;
-    font-family: "RobotoMedium";
+  font-family: "RobotoMedium";
   line-height: 1.125;
 }
 
@@ -773,7 +760,6 @@ img {
   width: 50px;
   height: 50px;
   background-color: #eeeeee;
-
   font-size: 16px;
   font-weight: 500;
   font-family: "RobotoMedium";
@@ -782,7 +768,6 @@ img {
   text-align: center;
   vertical-align: center;
 }
-
 
 .pagination-item.next a {
   width: 260px;
@@ -1021,7 +1006,6 @@ img {
   background-color: #eeeeee;
 }
 
-
 .partner-item {
   position: relative;
   margin-right: 20px;
@@ -1044,7 +1028,6 @@ img {
 .partner-item:nth-child(2)::after {
   bottom: 20px;
 }
-
 
 .partners ul {
   list-style: none;
@@ -1193,7 +1176,6 @@ img {
   animation: shake 0.6s;
 }
 
-
 .form {
   width: 760px;
   display: flex;
@@ -1201,7 +1183,6 @@ img {
   justify-content: space-between;
   margin: 0;
 }
-
 
 .form input {
   box-sizing: border-box;
@@ -1266,8 +1247,6 @@ img {
   margin-bottom: 21px;
 }
 
-
-
 .filter-and-features {
   width: 261px;
   margin-left: 0px;
@@ -1305,7 +1284,6 @@ img {
   text-align: center;
   background-color: #eeeeee;
 }
-
 
 .template-hover h3 {
   margin-top: 33px;
@@ -1389,11 +1367,9 @@ img {
   margin-bottom: 39px;
 }
 
-
 .templates li {
   position: relative;
 }
-
 
 .template-hover {
   display: none;
@@ -1401,7 +1377,6 @@ img {
   bottom: 0;
   left: 0;
   z-index: 1000;
-
 }
 
 .template:hover .template-hover {
@@ -1422,28 +1397,23 @@ img {
 
 .range-controls {
   position: relative;
-
   height: 41px;
   margin-bottom: 15px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
-
   background-color: #f1f1f1;
-
   border-radius: 5px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: #d7dcde;
 }
 
 .range-controls .bar {
   width: 70%;
   height: 2px;
-
   background: #00ca74;
 }
 
@@ -1451,11 +1421,9 @@ img {
   position: absolute;
   top: 31px;
   left: 0;
-
   width: 4px;
   height: 4px;
   padding: 0;
-
   border: 8px solid #ffffff;
   background-color: #ababab;
   box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -1487,12 +1455,10 @@ img {
   width: 60px;
   padding: 8px 10px;
   margin-left: 10px;
-
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   text-align: center;
   color: #283136;
-
   border: none;
   border-radius: 5px;
   background: #f1f1f1;
@@ -1501,7 +1467,6 @@ img {
 .max-price {
   text-align: right;
 }
-
 
 .close {
   position: absolute;
