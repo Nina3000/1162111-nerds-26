@@ -64,12 +64,12 @@ img {
 .page-title {
   font-size: 55px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1;
   background-color: #eeeeee;
   margin-top:0;
-  margin-bottom: 45px;
-  padding-top: 82px;
+  margin-bottom: 30px;
+  padding-top: 75px;
   padding-bottom: 116px;
   text-align: center;
 }
@@ -78,7 +78,7 @@ img {
 .cart-list {
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1.8;
   text-transform: uppercase;
   list-style: none;
@@ -137,7 +137,7 @@ img {
 .catalog-items {
   list-style: none;
   display: flex;
-  margin-top: 80px;
+  margin-top: 88px;
   padding-left: 0px;
   padding-right: 120px;
   margin-bottom: 98px;
@@ -148,7 +148,7 @@ img {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -156,7 +156,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #283136;
-  margin-top: 27px;
+  margin-top: 20px;
   margin-bottom: 54px;
 }
 
@@ -208,7 +208,7 @@ img {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   text-transform: uppercase;
   line-height: 1.125;
   text-align: center;
@@ -338,9 +338,9 @@ img {
 .discount p:first-of-type {
  font-size: 36px;
  font-weight: bold;
- font-family: "RobotoBold";
+ font-family: "RobotoBold", "Arial", sans-serif;
  line-height: 1;
- margin-top: 78px;
+ margin-top: 74px;
  margin-bottom: 0;
 }
 
@@ -350,6 +350,10 @@ img {
   color: #444444;
   margin-bottom: 76px;
   margin-top: 12px;
+}
+
+.price fieldset {
+  padding: 0px;
 }
 
 .net,
@@ -363,7 +367,7 @@ img {
 }
 
 .net {
-  margin-bottom: 42px;
+  margin-bottom: 54px;
 }
 
 .features {
@@ -378,7 +382,7 @@ img {
 
 .net li,
 .features li {
-  margin-bottom: 22px;
+  margin-bottom: 23px;
   padding-left: 36px;
 }
 
@@ -431,10 +435,11 @@ img {
 .submit {
   width: 260px;
   padding: 19px 88px 18px 89px;
+  margin-top: 15px;
   border: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1.125;
   text-align: center;
   color: #000000;
@@ -461,7 +466,7 @@ img {
 .filter legend {
   font-size: 18px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1.6;
 }
 
@@ -471,6 +476,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
+  margin-bottom: 20px
 }
 
 .templates li {
@@ -526,7 +532,7 @@ img {
 .slider-item:nth-child(1) {
   background-image: url("../img/slide-picture.png");
   background-repeat: no-repeat;
-  background-position: 100% 0px;
+  background-position: 160% 10px;
 }
 
 .slider-item:nth-child(2) {
@@ -555,9 +561,9 @@ img {
   font-size: 55px;
   font-weight: 500;
   line-height: 1;
-  margin-top: 27px;
+  margin-top: 32px;
   margin-bottom: 28px;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
 }
 
 .slider-item p:last-of-type {
@@ -653,7 +659,7 @@ img {
 .sort h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1;
   text-transform: uppercase;
   margin-right: 267px;
@@ -690,7 +696,7 @@ img {
 .filter legend {
   font-size: 18px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1.6;
   text-transform: uppercase;
 }
@@ -725,7 +731,7 @@ img {
   background-color: #eeeeee;
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1.125;
 }
 
@@ -766,7 +772,7 @@ img {
   background-color: #eeeeee;
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1.125;
   text-transform: uppercase;
   text-align: center;
@@ -800,7 +806,7 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #fb565a;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
 }
 
 .slider-item a {
@@ -829,7 +835,7 @@ img {
   display: flex;
   /* padding-left: 0px;
   padding-right: 0px; */
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
 }
 
 .about-company {
@@ -861,16 +867,16 @@ img {
   font-size: 45px;
   font-weight: 500;
   line-height: 1;
-  margin-top: 80px;
+  margin-top: 65px;
   margin-bottom: 32px;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
 }
 
 .work-ethics p:nth-child(2) {
   font-size: 16px;
   line-height: 1.5;
   margin-top: 35px;
-  margin-bottom: 47px;
+  margin-bottom: 38px;
   color: #283136;
 }
 
@@ -879,7 +885,8 @@ img {
   line-height: 1.5;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "RobotoBold";
+  margin-bottom: 4px;
+  font-family: "RobotoBold", "Arial", sans-serif;
 }
 
 .orders {
@@ -928,10 +935,10 @@ img {
 .with-stats > p:first-of-type {
   font-size: 16px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1.5;
   text-transform: uppercase;
-  margin-top: 41px;
+  margin-top: 25px;
   margin-bottom: 62px;
   padding-left: 2px;
 }
@@ -956,7 +963,7 @@ img {
 .statistics .percent {
   font-size: 45px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 0.2;
   display: inline-block;
   margin: 0;
@@ -965,7 +972,7 @@ img {
 .statistics span {
   font-size: 23px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 10px;
   vertical-align: top;
 }
@@ -974,7 +981,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #283136;
-  margin-top: 27px;
+  margin-top: 15px;
   margin-bottom: 27px;
 }
 
@@ -988,6 +995,7 @@ img {
   position: relative;
   padding-top: 46px;
   padding-bottom: 44px;
+  margin-bottom: 80px;
 }
 
 .partners::before {
@@ -1061,7 +1069,6 @@ img {
 }
 
 .location {
-  margin-top: 80px;
   position: relative;
   width: 100%;
   height: 416px;
@@ -1070,11 +1077,11 @@ img {
 .location p:first-of-type {
   font-size: 18px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1.6;
   text-transform: uppercase;
   color: black;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   margin-top: 0;
 }
 
@@ -1085,7 +1092,7 @@ img {
 }
 
 .location p:last-of-type {
-  margin-bottom: 37px;
+  margin-bottom: 56px;
 }
 
 .location iframe {
@@ -1110,9 +1117,8 @@ img {
 
 .address {
   background-color: #ffffff;
-  padding: 54px 50px 66px 50px;
-  /* margin-top: 100px; */
-  /* position: absolute; */
+  padding: 50px 50px 66px 50px;
+  margin-left: 20px;
   position: absolute;
   top: 54px;
   left: 0px;
@@ -1140,7 +1146,7 @@ img {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   text-transform: uppercase;
   line-height: 1.125;
   text-align: center;
@@ -1210,7 +1216,7 @@ img {
   margin-bottom: 12px;
   font-size: 16px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1,125;
 }
 
@@ -1237,7 +1243,7 @@ img {
 .mail h2 {
   font-size: 45px;
   font-weight: 500;
-  font-family: "RobotoMedium";
+  font-family: "RobotoMedium", "Arial", sans-serif;
   line-height: 1;
   margin: 0;
   margin-bottom: 42px;
@@ -1249,7 +1255,7 @@ img {
 
 .filter-and-features h3,
 .filter-and-features legend {
-  margin-bottom: 21px;
+  margin-bottom: 17px;
 }
 
 .filter-and-features {
@@ -1299,7 +1305,7 @@ img {
 .template-name {
   font-size: 18px;
   font-weight: bold;
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", "Arial", sans-serif;
   line-height: 1.5;
   margin: 0 auto;
   color: #000000;
