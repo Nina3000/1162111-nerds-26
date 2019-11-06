@@ -78,7 +78,7 @@ img {
 .cart-list {
   font-size: 16px;
   font-weight: 500;
-    font-family: "RobotoMedium";
+  font-family: "RobotoMedium";
   line-height: 1.8;
   text-transform: uppercase;
   list-style: none;
@@ -208,7 +208,7 @@ img {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-    font-family: "RobotoMedium";
+  font-family: "RobotoMedium";
   text-transform: uppercase;
   line-height: 1.125;
   text-align: center;
@@ -644,6 +644,10 @@ img {
   background-color: inherit;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
+}
+
+.sort-and-templates {
+  width: 100%;
 }
 
 .sort h3 {
@@ -1096,6 +1100,7 @@ img {
 .location-map {
   position: absolute;
   width: 100%;
+  overflow: hidden;
 }
 
 .address-container {
@@ -1135,7 +1140,7 @@ img {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-    font-family: "RobotoMedium";
+  font-family: "RobotoMedium";
   text-transform: uppercase;
   line-height: 1.125;
   text-align: center;
@@ -1251,6 +1256,7 @@ img {
   width: 261px;
   margin-left: 0px;
   margin-right: 140px;
+  flex-shrink: 0;
 }
 
 .sort {
@@ -1311,7 +1317,7 @@ img {
 .template-hover p {
   margin-top: 19px;
   margin-bottom: 30px;
-    padding-left: 60px;
+  padding-left: 60px;
   padding-right: 60px;
   font-size: 16px;
   line-height: 1.125;
@@ -1319,13 +1325,13 @@ img {
 }
 
 .template-hover.sedona p {
-      padding-left: 80px;
+  padding-left: 80px;
   padding-right: 80px;
 }
 
 .template-hover.barber p,
 .template-hover.mishka p {
-        padding-left: 90px;
+  padding-left: 90px;
   padding-right: 90px;
 }
 
