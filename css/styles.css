@@ -517,7 +517,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 969px;
+  width: 1129px;
   padding-left: 0px;
   padding-right: 31px;
 }
@@ -532,7 +532,7 @@ img {
 .slider-item:nth-child(1) {
   background-image: url("../img/slide-picture.png");
   background-repeat: no-repeat;
-  background-position: 160% 10px;
+  background-position: 100% 10px;
 }
 
 .slider-item:nth-child(2) {
